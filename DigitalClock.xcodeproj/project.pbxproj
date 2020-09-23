@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		207867652512648D00A41F4A /* DisplayDigit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207867642512648D00A41F4A /* DisplayDigit.swift */; };
+		20786767251270B600A41F4A /* DigitLeds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20786766251270B600A41F4A /* DigitLeds.swift */; };
 		2084FB062511001600506202 /* DigitalClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2084FB052511001600506202 /* DigitalClockApp.swift */; };
 		2084FB082511001600506202 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2084FB072511001600506202 /* ContentView.swift */; };
 		2084FB0A2511001700506202 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2084FB092511001700506202 /* Assets.xcassets */; };
@@ -33,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		202D262D251BE8B3004DE281 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		207867642512648D00A41F4A /* DisplayDigit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayDigit.swift; sourceTree = "<group>"; };
+		20786766251270B600A41F4A /* DigitLeds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitLeds.swift; sourceTree = "<group>"; };
 		2084FB022511001600506202 /* DigitalClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2084FB052511001600506202 /* DigitalClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockApp.swift; sourceTree = "<group>"; };
 		2084FB072511001600506202 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,9 +77,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2078676025125E9F00A41F4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20786766251270B600A41F4A /* DigitLeds.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2084FAF92511001600506202 = {
 			isa = PBXGroup;
 			children = (
+				202D262D251BE8B3004DE281 /* README.md */,
 				2084FB042511001600506202 /* DigitalClock */,
 				2084FB162511001700506202 /* DigitalClockTests */,
 				2084FB212511001700506202 /* DigitalClockUITests */,
@@ -95,8 +109,10 @@
 		2084FB042511001600506202 /* DigitalClock */ = {
 			isa = PBXGroup;
 			children = (
+				2078676025125E9F00A41F4A /* Model */,
 				2084FB052511001600506202 /* DigitalClockApp.swift */,
 				2084FB072511001600506202 /* ContentView.swift */,
+				207867642512648D00A41F4A /* DisplayDigit.swift */,
 				2084FB092511001700506202 /* Assets.xcassets */,
 				2084FB0E2511001700506202 /* Info.plist */,
 				2084FB0B2511001700506202 /* Preview Content */,
@@ -259,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20786767251270B600A41F4A /* DigitLeds.swift in Sources */,
+				207867652512648D00A41F4A /* DisplayDigit.swift in Sources */,
 				2084FB082511001600506202 /* ContentView.swift in Sources */,
 				2084FB062511001600506202 /* DigitalClockApp.swift in Sources */,
 			);
